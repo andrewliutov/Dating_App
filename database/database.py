@@ -2,10 +2,7 @@ import sqlalchemy as sq
 import psycopg2
 
 
-DSN = 'postgresql://{username}:{password}@localhost:5432/{database}'
-
-
-class DB:
+class Database:
     def __init__(self, DSN):
         engine = sq.create_engine(DSN)
         self.mydb = engine.raw_connection()
