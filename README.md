@@ -20,7 +20,7 @@
 ```
 - имя и фамилия,
 - ссылка на профиль,
-- три фотографии в виде attachment(https://dev.vk.com/method/messages.send).
+- три фотографии в виде attachment (https://dev.vk.com/method/messages.send).
 ```
 * Результат программы записывается в БД.
 * Люди не повторяются при повторном поиске.
